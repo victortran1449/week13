@@ -13,6 +13,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.blueBG {
+    background-color: lightblue;
+}
 @media screen and (min-width: 600px) {
     header {
         display: flex;
