@@ -1,3 +1,34 @@
 body {
     background-color: tan;
 }
+/* default css - applied to both mobile and desktop */
+.form {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+}
+.blueBG {
+    background-color: lightblue;
+}
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px 0px;
+    }
+    .lists {
+        display: flex;
+        justify-content: space-around;
+    }
+    }
